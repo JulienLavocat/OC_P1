@@ -1,0 +1,17 @@
+.accommodation-count {
+	display: flex;
+	align-items: center;
+}
+
+.accommodation-count .icon {
+	font-size: 12px;
+	margin-right: 10px;
+}
+
+.accommodation-count .icon-background {
+	color: #f2f2f2;
+}
+
+.accommodation-count .icon-foreground {
+	color: #0065fc;
+}

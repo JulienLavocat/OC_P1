@@ -1,0 +1,44 @@
+.hotel-card {
+	background-color: white;
+	border-radius: 15px;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 1px 1px 5px #dedcdc;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.hotel-card:first-of-type {
+	margin-left: 0px;
+}
+
+.hotel-card .thumbnail {
+	width: 250px;
+	height: 150px;
+	object-fit: cover;
+	vertical-align: middle;
+	border-start-end-radius: 15px;
+	border-start-start-radius: 15px;
+}
+
+.hotel-card .content {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.hotel-card .content > h4 {
+	margin: 0;
+}
+
+.hotel-card .content > p {
+	margin: 0;
+}
+
+.hotel-card .content .hotel-score {
+	color: #f2f2f2;
+}
+
+.hotel-card .content .hotel-score .active {
+	color: #0065fc;
+}
