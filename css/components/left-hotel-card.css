@@ -10,7 +10,7 @@
 
 .left-hotel-card .thumbnail {
 	width: 150px;
-	height: 150px;
+	height: 100%;
 	vertical-align: middle;
 	border-bottom-left-radius: 15px;
 	border-top-left-radius: 15px;
