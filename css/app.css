@@ -1,0 +1,11 @@
+@import url("/css/normalize.css");
+@import url("/css/global.css");
+
+@import url("/css/components/accomodation-count.css");
+@import url("/css/components/card.css");
+@import url("/css/components/filters.css");
+@import url("/css/components/hotel-card.css");
+@import url("/css/components/housing.css");
+@import url("/css/components/input-group.css");
+@import url("/css/components/left-hotel-card.css");
+@import url("/css/components/navbar.css");
