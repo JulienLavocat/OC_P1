@@ -14,7 +14,9 @@
 }
 
 .hotel-card .thumbnail {
+	min-width: 250px;
 	width: 100%;
+	max-width: 250px;
 	height: 10vw;
 	object-fit: cover;
 	border-start-end-radius: 15px;
