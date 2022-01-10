@@ -1,16 +1,17 @@
 .card {
 	background-color: #f2f2f2;
 	border-radius: 15px;
-	padding: 1.5em;
+	padding: 2em 2em;
 	display: flex;
 	flex-direction: column;
 }
-
+/*
 .card .card-title {
 	margin-bottom: 1.25em;
-}
+} */
 
 .card .card-content {
+	margin-top: 2em;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -24,10 +25,8 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	gap: 1em;
-	margin-top: 1em;
 }
 
 .card .card-actions {
 	margin-top: 2em;
-	margin-bottom: 1em;
 }

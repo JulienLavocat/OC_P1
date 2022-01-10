@@ -35,6 +35,7 @@
 	.most-popular {
 		color: red;
 		justify-self: flex-end;
+		margin-bottom: 2em;
 	}
 
 	.housing-list {
@@ -46,5 +47,8 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-bottom: 20px;
+}
+
+.housing-list .card-row:not(:first-child) {
+	margin-top: 1rem;
 }
