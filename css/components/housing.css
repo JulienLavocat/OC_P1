@@ -2,6 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap-reverse;
+	gap: 1em;
 
 	margin-top: 20px;
 }
@@ -34,11 +35,10 @@
 	.most-popular {
 		color: red;
 		justify-self: flex-end;
-		width: 30%;
 	}
 
 	.housing-list {
-		width: 60%;
+		flex-grow: 1;
 	}
 }
 
