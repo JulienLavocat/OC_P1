@@ -2,19 +2,24 @@
 	width: 100vw;
 	height: 100px;
 	display: flex;
-	align-items: stretch;
+	align-items: center;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
 .header .logo {
-	padding: 30px;
+	width: auto;
+	height: 60px;
+	padding-left: 30px;
 }
 
 .header nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+
+	width: 25%;
+	height: 100px;
 }
 
 .header nav .nav-item {
@@ -30,59 +35,7 @@
 	color: inherit;
 }
 
-/* Phone screen */
-@media (max-width: 767px) {
-	.break {
-		flex-basis: 100%;
-		height: 0;
-	}
-
-	.header nav {
-		height: 50px;
-		width: 100%;
-	}
-
-	.header .nav-item {
-		width: 50%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.header nav .nav-item.active {
-		border-bottom: 2px solid #0065fc;
-		color: #0065fc;
-	}
-
-	.header .logo {
-		width: 30%;
-		height: 30%;
-	}
-}
-
-/* Tablet */
-@media (min-width: 768px) and (max-width: 991px) {
-}
-
-/* Computer screen */
-@media (min-width: 992px) {
-	.header {
-		width: 100vw;
-		height: 100px;
-	}
-
-	.header .logo {
-		padding: 0px;
-		height: 100px;
-	}
-
-	.header nav {
-		width: 25%;
-		height: 100px;
-	}
-
-	.header nav .nav-item.active {
-		border-top: 4px solid #0065fc;
-		color: #0065fc;
-	}
+.header nav .nav-item.active {
+	border-top: 4px solid #0065fc;
+	color: #0065fc;
 }
