@@ -1,31 +1,30 @@
 #housing {
-	display: flex;
-	justify-content: space-between;
-	/* flex-wrap: wrap-reverse; */
-	gap: 1em;
-
-	margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  gap: 1em;
+  margin-top: 2rem;
 }
 
 .most-popular {
-	justify-self: flex-end;
+  justify-self: flex-end;
 }
 
 .most-popular .card-content {
-	height: 100%;
-	justify-content: space-between;
+  height: 100%;
+  justify-content: space-between;
 }
 
 .housing-list {
-	flex-grow: 1;
+  flex-grow: 1;
 }
 
 .most-popular-title {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .housing-list .card-row:not(:first-child) {
-	margin-top: 1rem;
+  margin-top: 1rem;
 }

@@ -1,45 +1,46 @@
 .left-hotel-card {
-	background-color: white;
-	border-radius: 15px;
-	padding: 5px;
-	display: flex;
-	flex-direction: row;
-	box-shadow: 1px 1px 5px #dedcdc;
+  background-color: white;
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 1px 1px 5px #dedcdc;
+  height: 30%;
 }
 
 .left-hotel-card .thumbnail {
-	width: 150px;
-	height: 8vw;
-	object-fit: cover;
-	vertical-align: middle;
-	border-bottom-left-radius: 15px;
-	border-top-left-radius: 15px;
+  width: 150px;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 .left-hotel-card .content {
-	display: flex;
-	flex-direction: column;
-	margin: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
 }
 
 .left-hotel-card .content > h4 {
-	margin: 0;
-	margin-bottom: 5px;
+  margin: 0;
+  margin-bottom: 5px;
 }
 
 .left-hotel-card .content > p {
-	margin: 0;
+  margin: 0;
 }
 
 .left-hotel-card .content .hotel-score {
-	color: #f2f2f2;
-	align-self: baseline;
+  color: #f2f2f2;
+  align-self: baseline;
 }
 
 .left-hotel-card .content .span-score {
-	flex-grow: 1;
+  flex-grow: 1;
 }
 
 .left-hotel-card .content .hotel-score .active {
-	color: #0065fc;
+  color: #0065fc;
 }
