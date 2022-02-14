@@ -1,51 +1,51 @@
 #activities > h3 {
-	margin-top: 50px;
-	margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .activity-list {
-	width: 100%;
-	/* height: 50vh; */
-	display: flex;
-	justify-content: space-around;
+  width: 100%;
+  /* height: 50vh; */
+  display: flex;
+  justify-content: space-around;
 }
 
 .activity-row {
-	display: flex;
-	flex-direction: column;
-	height: inherit;
-	justify-content: space-between;
-	gap: 30px;
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  justify-content: space-between;
+  gap: 30px;
 }
 
 .activity-card {
-	display: flex;
-	flex-direction: column;
-	border-radius: 15px;
-	box-shadow: 5px 5px 5px rgb(218, 218, 218);
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgb(218, 218, 218);
 }
 
 .activity-card-title {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 20px;
-	/* height: 20%; */
-	font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  height: 50px;
+  font-weight: 900;
 }
 
 .activity-list img {
-	border-start-end-radius: 15px;
-	border-start-start-radius: 15px;
-	/* max-width: auto;
+  border-start-end-radius: 15px;
+  border-start-start-radius: 15px;
+  /* max-width: auto;
 	max-height: 80%; */
-	object-fit: cover;
-	width: 300px;
-	height: 475px;
+  object-fit: cover;
+  width: 300px;
+  height: 475px;
 }
 
 .activity-list .img-split {
-	/* max-width: auto;
+  /* max-width: auto;
 	max-height: 80%; */
-	width: auto;
-	height: 200px;
+  width: auto;
+  height: 200px;
 }

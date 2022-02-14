@@ -1,7 +1,7 @@
 #housing {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap-reverse;
+  /* flex-wrap: wrap-reverse; */
   gap: 1em;
   margin-top: 2rem;
 }
