@@ -1,28 +1,42 @@
 .main .filters {
-	font-size: large;
-	font-weight: bold;
-	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
-	margin-top: 20px;
+  --icon-size: 25px;
+
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .filters .filter {
-	margin: 10px;
-	display: flex;
-	align-items: center;
-	border: 4px solid #f2f2f2;
-	border-radius: 35px;
-}
-
-.filter > i {
-	background-color: #deebff;
-	padding: 15px;
-	border-radius: 50%;
-	color: #0065fc;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  border: 4px solid #f2f2f2;
+  border-radius: 35px;
 }
 
 .filter > p {
-	padding-left: 10px;
-	padding-right: 20px;
+  font-weight: 900;
+  padding-right: 20px;
+  margin: 0;
+  margin-left: calc(var(--icon-size) + 25px);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main .filter .fa-stack {
+  position: absolute;
+  margin-left: -15px;
+  font-size: var(--icon-size);
+}
+
+.main .filter .icon-background {
+  color: #deebff;
+}
+
+.main .filter .icon-foreground {
+  color: #0065fc;
+  font-size: calc(var(--icon-size) * 0.75);
 }
