@@ -6,6 +6,8 @@
   flex-direction: column;
   box-shadow: 1px 1px 5px #dedcdc;
   width: 30%;
+  color: inherit;
+  text-decoration: none;
 }
 
 .hotel-card .thumbnail {

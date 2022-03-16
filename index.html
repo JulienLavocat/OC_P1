@@ -16,15 +16,10 @@
 
 <body>
     <header class="header">
-        <img src="images/logo/Booki@3x.png" class="logo" alt="Booki logo" />
-        <div class="break"></div>
+        <a href="#"><img src="images/logo/Booki@3x.png" class="logo" alt="Booki logo" /></a>
         <nav>
-            <div class="nav-item active">
-                <a href="#housing" class="nav-link">Hébergements</a>
-            </div>
-            <div class="nav-item">
-                <a href="#activities" class="nav-link">Activités</a>
-            </div>
+            <a href="#housing" class="nav-item nav-link active">Hébergements</a>
+            <a href="#activities" class="nav-item nav-link">Activités</a>
         </nav>
     </header>
     <main class="main">
@@ -33,11 +28,13 @@
             <p>En plein centre-ville ou en pleine nature</p>
         </section>
 
-        <section class="input-group main-search">
-            <span class="input-group-addon"><i class="fas fa-map-marker-alt"></i></span>
-            <input value="Marseille, France" />
-            <button>Rechercher</button>
-        </section>
+        <form>
+            <section class="input-group main-search">
+                <span class="input-group-addon"><i class="fas fa-map-marker-alt"></i></span>
+                <input value="Marseille, France" name="query" />
+                <button>Rechercher</button>
+            </section>
+        </form>
 
         <section class="filters">
             <h4>Filtres</h4>
@@ -86,7 +83,7 @@
                 </div>
                 <div class="card-content">
                     <div class="card-row">
-                        <div class="hotel-card">
+                        <a class="hotel-card" href="#">
                             <img src="images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
                                 class="thumbnail" alt="Auberge La Cannebière" />
                             <div class="content">
@@ -101,8 +98,8 @@
                                     <i class="fas fa-star"></i>
                                 </div>
                             </div>
-                        </div>
-                        <div class="hotel-card">
+                        </a>
+                        <a class="hotel-card" href="#">
                             <div><img src="images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
                                     class="thumbnail" alt="Hôtel du port" /></div>
                             <div class="content">
@@ -117,8 +114,8 @@
                                     <i class="fas fa-star active"></i>
                                 </div>
                             </div>
-                        </div>
-                        <div class="hotel-card">
+                        </a>
+                        <a class="hotel-card" href="#">
                             <img src="images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg" class="thumbnail"
                                 alt="Hôtel Les Mouettes" />
                             <div class="content">
@@ -133,11 +130,11 @@
                                     <i class="fas fa-star"></i>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="card-row">
-                        <div class="hotel-card">
+                        <a class="hotel-card" href="#">
                             <div><img src="images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                                     class="thumbnail" alt="Hôtel de la Mer" /></div>
                             <div class="content">
@@ -152,8 +149,8 @@
                                     <i class="fas fa-star"></i>
                                 </div>
                             </div>
-                        </div>
-                        <div class="hotel-card">
+                        </a>
+                        <a class="hotel-card" href="#">
                             <img src="images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" class="thumbnail"
                                 alt="Hôtel Le Panier" />
                             <div class="content">
@@ -168,8 +165,8 @@
                                     <i class="fas fa-star"></i>
                                 </div>
                             </div>
-                        </div>
-                        <div class="hotel-card">
+                        </a>
+                        <a class="hotel-card" href="#">
                             <img src="images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                                 class="thumbnail" alt="Hôtel Chez Amina" />
                             <div class="content">
@@ -184,7 +181,7 @@
                                     <i class="fas fa-star"></i>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
 
                 </div>
@@ -198,7 +195,7 @@
                     <i class="fas fa-chart-line"></i>
                 </div>
                 <div class="card-content">
-                    <div class="left-hotel-card">
+                    <a class="left-hotel-card" href="#">
                         <div><img src="images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                                 class="thumbnail" alt="Hôtel le soleil du matin" /></div>
                         <div class="content">
@@ -214,8 +211,8 @@
                                 <i class="fas fa-star active"></i>
                             </div>
                         </div>
-                    </div>
-                    <div class="left-hotel-card">
+                    </a>
+                    <a class="left-hotel-card" href="#">
                         <div><img src="images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg"
                                 class="thumbnail" alt="Au coeur de l'eau chambres d'ĥotes" /></div>
                         <div class="content">
@@ -231,8 +228,8 @@
                                 <i class="fas fa-star"></i>
                             </div>
                         </div>
-                    </div>
-                    <div class="left-hotel-card">
+                    </a>
+                    <a class="left-hotel-card" href="#">
                         <div><img src="images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
                                 class="thumbnail" alt="Hôtel tout bleu et blanc" /></div>
                         <div class="content">
@@ -248,7 +245,7 @@
                                 <i class="fas fa-star"></i>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
             </div>
@@ -258,41 +255,41 @@
             <h3>Activités a Marseille</h3>
             <div class="activity-list">
                 <div class="activity-row">
-                    <div class="activity-card">
+                    <a class="activity-card" href="#">
                         <img src="images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port">
                         <div class="activity-card-title">Vieux Port</div>
-                    </div>
+                    </a>
                 </div>
                 <div class="activity-row">
-                    <div class="activity-card">
+                    <a class="activity-card" href="#">
                         <img class="img-split" src="images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
                             alt="Fort de Pomègues">
                         <div class="activity-card-title">Fort de Pomègues</div>
-                    </div>
-                    <div class="activity-card">
+                    </a>
+                    <a class="activity-card" href="#">
                         <img class="img-split" src="images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
                             alt="Îles du Frioul">
                         <div class="activity-card-title">Îles du Frioul</div>
-                    </div>
+                    </a>
                 </div>
                 <div class="activity-row">
-                    <div class="activity-card">
+                    <a class="activity-card" href="#">
                         <img src="images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                             alt="Parc National des Calanques">
                         <div class="activity-card-title">Parc National des Calanques</div>
-                    </div>
+                    </a>
                 </div>
                 <div class="activity-row">
-                    <div class="activity-card">
+                    <a class="activity-card" href="#">
                         <img class="img-split" src="images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                             alt="Notre-Dame-de-la-Garde">
                         <div class="activity-card-title">Notre-Dame-de-la-Garde</div>
-                    </div>
-                    <div class="activity-card">
+                    </a>
+                    <a class="activity-card" href="#">
                         <img class="img-split" src="images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
                             alt="Parc Longchamp">
                         <div class="activity-card-title">Parc Longchamp</div>
-                    </div>
+                    </a>
                 </div>
             </div>
 

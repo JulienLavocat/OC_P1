@@ -40,3 +40,10 @@
   color: #0065fc;
   font-size: calc(var(--icon-size) * 0.75);
 }
+
+.filter:hover {
+  cursor: pointer;
+  background-color: #0065fc;
+  border-color: #0065fc;
+  color: #f2f2f2;
+}
