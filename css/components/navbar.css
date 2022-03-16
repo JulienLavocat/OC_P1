@@ -14,25 +14,30 @@
 }
 
 .header nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-
   width: 25%;
   height: 100px;
 }
 
-.header nav .nav-item {
-  width: 50%;
+.header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header nav .nav-item {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.header nav .nav-link {
-  text-decoration: inherit;
+  list-style-type: none;
+  text-decoration: none;
   color: inherit;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .header nav .nav-item.active {
