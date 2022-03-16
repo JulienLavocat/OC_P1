@@ -1,31 +1,27 @@
 .card {
-	background-color: #f2f2f2;
-	border-radius: 15px;
-	padding: 2em 2em;
-	display: flex;
-	flex-direction: column;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  padding: 32px 32px;
+  display: flex;
+  flex-direction: column;
 }
-/*
-.card .card-title {
-	margin-bottom: 1.25em;
-} */
 
 .card .card-content {
-	margin-top: 2em;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .card .card-row {
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	gap: 1em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
 }
 
 .card .card-actions {
-	margin-top: 2em;
+  margin-top: 32px;
 }
