@@ -12,3 +12,12 @@
 @import url("components/input-group.css");
 @import url("components/left-hotel-card.css");
 @import url("components/navbar.css");
+
+/* Phone media query */
+@import url("mq/phone.css") only screen and (max-width: 768px);
+
+/* Tablet media query */
+@import url("mq/tablet.css") only screen and (min-width: 769px);
+
+/* Desktop media query */
+@import url("mq/desktop.css") only screen and (min-width: 993px);

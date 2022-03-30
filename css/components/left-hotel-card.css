@@ -4,6 +4,7 @@
   padding: 5px;
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   box-shadow: 1px 1px 5px #dedcdc;
   height: 30%;
   color: inherit;
@@ -11,7 +12,7 @@
 }
 
 .left-hotel-card .thumbnail {
-  width: 9vw;
+  width: 150px;
   height: 100%;
   object-fit: cover;
   vertical-align: middle;
@@ -28,6 +29,7 @@
 .left-hotel-card .content > h4 {
   margin: 0;
   margin-bottom: 5px;
+  overflow-wrap: break-word;
 }
 
 .left-hotel-card .content > p {

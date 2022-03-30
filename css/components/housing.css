@@ -1,13 +1,13 @@
 #housing {
   display: flex;
   justify-content: space-between;
-  /* flex-wrap: wrap-reverse; */
-  gap: 16px;
+  gap: 48px;
   margin-top: 32px;
 }
 
 .most-popular {
   justify-self: flex-end;
+  max-width: 25%;
 }
 
 .most-popular .card-content {
@@ -16,7 +16,7 @@
 }
 
 .housing-list {
-  flex-grow: 1;
+  width: 70%;
 }
 
 .most-popular-title {

@@ -25,20 +25,23 @@
         </nav>
     </header>
     <main class="main">
-        <section>
+        <section id="summary">
             <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
             <p>En plein centre-ville ou en pleine nature</p>
         </section>
 
-        <form>
-            <section class="input-group main-search">
+        <section id="search">
+            <form class="input-group main-search">
                 <span class="input-group-addon"><i class="fas fa-map-marker-alt"></i></span>
                 <input value="Marseille, France" name="query" />
-                <button>Rechercher</button>
-            </section>
-        </form>
+                <button>
+                    <span class="text">Rechercher</span>
+                    <span class="icon"><i class="fas fa-search"></i></span>
+                </button>
+            </form>
+        </section>
 
-        <section class="filters">
+        <section class="filters" id="filters">
             <h4>Filtres</h4>
             <div class="filter">
                 <span class="fa-stack fa-2x icon">
@@ -70,7 +73,7 @@
             </div>
         </section>
 
-        <section class="accommodation-count">
+        <section class="accommodation-count" id="accommodations-count">
             <span class="fa-stack fa-2x icon">
                 <i class="far fa-circle fa-stack-2x icon-background"></i>
                 <i class="fas fa-info fa-stack-1x icon-foreground"></i>
