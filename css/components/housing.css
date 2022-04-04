@@ -28,3 +28,7 @@
 .housing-list .card-row:not(:first-child) {
   margin-top: 16px;
 }
+
+.housing-list .card-content {
+  gap: 16px
+}
