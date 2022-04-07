@@ -59,7 +59,7 @@ main {
 }
 
 #search .main-search {
-  max-width: initial;
+  max-width: 92%;
 }
 
 #search .icon {
@@ -154,11 +154,11 @@ main {
 }
 
 footer {
-  width: initial;
   margin-top: 40px;
   display: block;
   padding-bottom: 0px;
-  max-width: 100%;
+  width: initial;
+  height: 475px;
 }
 
 footer .footer-category {
