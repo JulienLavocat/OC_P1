@@ -1,10 +1,7 @@
-body {
-  /* color: green; */
-}
-
 #search .icon {
   display: none;
 }
+
 #search .text {
   display: inline-block;
 }
