@@ -1,14 +1,17 @@
+/* Global imports */
 @import url("normalize.css");
 @import url("global.css");
 
+/* Sections-related imports */
 @import url("section/activities.css");
 @import url("section/footer.css");
+@import url("section/housing.css");
 
+/* Components imports */
 @import url("components/accomodation-count.css");
 @import url("components/card.css");
 @import url("components/filters.css");
 @import url("components/hotel-card.css");
-@import url("components/housing.css");
 @import url("components/input-group.css");
 @import url("components/left-hotel-card.css");
 @import url("components/navbar.css");
@@ -17,7 +20,7 @@
 @import url("mq/phone.css") only screen and (max-width: 768px);
 
 /* Tablet media query */
-@import url("mq/tablet.css") only screen and (min-width: 769px);
+@import url("mq/tablet.css") only screen and (min-width: 769px) and (max-width: 992px);
 
 /* Desktop media query */
 @import url("mq/desktop.css") only screen and (min-width: 993px);
