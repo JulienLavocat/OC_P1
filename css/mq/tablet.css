@@ -64,7 +64,6 @@ footer {
   flex-direction: row;
   margin-top: 40px;
   width: calc(100% - 30px);
-  height: 450px;
 }
 
 footer .footer-category .title {
