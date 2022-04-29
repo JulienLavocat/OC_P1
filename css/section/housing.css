@@ -27,6 +27,7 @@
 
 .housing-list .card-row:not(:first-child) {
   margin-top: 16px;
+  flex-wrap: nowrap;
 }
 
 .housing-list .card-content {
