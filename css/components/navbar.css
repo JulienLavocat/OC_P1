@@ -1,4 +1,7 @@
 .header {
+
+  --border-size: 2px;
+
   width: 100vw;
   height: 100px;
   display: flex;
@@ -38,13 +41,15 @@
   padding: 0;
   height: 100%;
   width: 100%;
+  border-top: var(--border-size) solid white; /* Prevent text movement on hover caused by border's apparition */
 }
 
 .header nav .nav-item.active {
-  border-top: 4px solid #0065fc;
   color: #0065fc;
 }
 
-.nav-item:hover {
-  border-top: 4px solid #0065fc;
+.header nav .nav-item:hover {
+  border-top: var(--border-size) solid #0065fc;
 }
+
+
