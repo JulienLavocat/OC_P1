@@ -15,7 +15,6 @@ body {
 }
 
 #housing {
-  /* TODO: Padding (add -> fix it in order to align it with page's content) */
   flex-wrap: wrap-reverse;
   gap: 10px;
 }
